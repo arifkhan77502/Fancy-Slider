@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Slider</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h2 class="text-center mt-2">Search Image For Create Slider</h2>
+    
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center mx-auto">
+            <div class="search-box col-md-5">
+                <input id="search-img" type="text" class="form-control" id="search" placeholder="Search Image">
+            </div>
+            <div class="search-btn col-md-2">
+                <button id="search-img-btn" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="main-img-box" class="d-none">
+
+            <div class="image-header row d-flex justify-content-center align-items-center mx-auto mt-5">
+                <div class="title col-md-4">
+                    <h4>Select Image For Create Slider</h4>
+                </div>
+                <div class="duration-input col-md-5">
+                    <input id="slider-duration" type="text" class="form-control" id="dureation" placeholder="Slider Change Dureation">
+                </div>
+                <div class="slider-btn col-md-2">
+                    <button id="create-slider" class="btn btn-primary">Create Slider</button>
+                </div>
+            </div>
+
+
+
+        <div id="show-img" class="row show-img d-flex justify-content-center align-items-center">
+            <!-- <div class="card">
+                <img src="images/5.jpg" class="card-img-top img-fluid" alt="">
+            </div> -->
+        </div>
+
+
+
+
+
+        <div id="main-slider" class="main-slider d-none mt-5 col-md-10 col-lg-6 mx-auto">
+            <div class="slider-box">
+                <img id="img-tag" src="images/5.jpg" class="img-fluid w-100" alt="...">
+                <div class="row">
+                    <div class="slide-change d-flex justify-content-between align-items-center">
+                        <span onclick="previous(timer)">
+                            <i class="fa fa-chevron-left"></i>
+                        </span>                    
+                        <span onclick="next(timer)">
+                            <i class="fa fa-chevron-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
